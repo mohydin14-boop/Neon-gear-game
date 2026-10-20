@@ -1,7 +1,59 @@
-echo "# Neon-gear-game" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/mohydin14-boop/Neon-gear-game.git
-git push -u origin main
+!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NEON GEAR</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#080b1c;
+  color:white;
+  font-family:Arial,sans-serif;
+  padding:20px;
+}
+.card{
+  width:100%;
+  max-width:380px;
+  text-align:center;
+  padding:30px 22px;
+  background:#141a35;
+  border:2px solid #00eaff;
+  border-radius:22px;
+  box-shadow:0 0 25px #00eaff55;
+}
+h1{
+  color:#00eaff;
+  font-size:36px;
+}
+p{color:#d6ddff;line-height:1.6}
+a{
+  display:block;
+  margin-top:24px;
+  padding:16px;
+  border-radius:12px;
+  background:#00eaff;
+  color:#080b1c;
+  font-weight:bold;
+  text-decoration:none;
+}
+a:hover{background:#8af6ff}
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>NEON GEAR</h1>
+  <p>Ready for the challenge?</p>
+  <p>Download the Android game below!</p>
+  <a href="https://drive.google.com/" target="_blank">
+    DOWNLOAD APK
+  </a>
+  <p>Made by Mohydin 🎮</p>
+</div>
+</body>
+</html>
